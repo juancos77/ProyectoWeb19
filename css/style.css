@@ -1,0 +1,54 @@
+/* variables y estilos base */
+:root {
+  --main-color: #2E4172;
+  --secondary-color: #6978A0;
+  --aux-color1: #0B1B45;
+  --aux-color2: #010717;
+  --text-color: #C9CFDE;
+}
+
+html,
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 18px;
+}
+
+header {
+  background-color: #6978A0;
+  width: 100%;
+  height: 60px;
+}
+
+ul {
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: #C9CFDE;
+}
+
+ul li a:hover,
+nav li.active a {
+  border-bottom: 2px solid #C9CFDE;
+}
