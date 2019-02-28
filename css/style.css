@@ -24,6 +24,7 @@ body {
   font-size: 18px;
 }
 
+/* Header */
 header {
   background-color: #6978A0;
   width: 100%;
@@ -51,4 +52,61 @@ ul li a {
 ul li a:hover,
 nav li.active a {
   border-bottom: 2px solid #C9CFDE;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--main-color);
+}
+
+.hero p {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  color: var(--text-color);
+  font-size: 50px;
+}
+
+.hero figure {
+  text-align: center;
+}
+
+.hero img {
+  border-radius: 50%;
+  padding: 30px;
+}
+
+/* Main */
+.main .container {
+  background-color: var(--secondary-color);
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--text-color);
+}
+
+.main .container #autor {
+  margin-top: 0;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--main-color);
+  height: 40px;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer p a:hover {
+  color: #010717;
 }
